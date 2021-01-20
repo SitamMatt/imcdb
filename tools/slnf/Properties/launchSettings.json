@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "tools": {
+      "commandName": "Project",
+      "commandLineArgs": "-s \".\\db.sln\" -o \".\\core.slnf\" -i core",
+      "workingDirectory": "D:\\devel\\csharp\\imcdb\\db"
+    }
+  }
+}

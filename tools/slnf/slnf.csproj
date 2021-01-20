@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>slnf</AssemblyName>
+    <RootNamespace>slnf</RootNamespace>
+	<PackAsTool>true</PackAsTool>
+	<ToolCommandName>slnf</ToolCommandName>
+	<PackageOutputPath>./nupkg</PackageOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="McMaster.Extensions.CommandLineUtils" Version="3.1.0" />
+    <PackageReference Include="Microsoft.Build" Version="16.8.0" />
+  </ItemGroup>
+
+</Project>
